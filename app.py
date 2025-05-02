@@ -5,8 +5,8 @@ import io
 
 app = Flask(__name__)
 
-API_KEY = "UDITxAPIS"
-TIMEOUT = 10
+API_KEY = "Strainxapi"
+TIMEOUT = 15
 
 def fetch_player_info(uid, region):
     url = f"https://ariiflexlabs-playerinfo-icxc.onrender.com/ff_info?uid={uid}&region={region}"
